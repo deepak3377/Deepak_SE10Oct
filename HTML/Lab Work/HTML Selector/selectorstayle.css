@@ -1,0 +1,28 @@
+h1{
+	background-color: greenyellow;
+	font-size: 28;
+	font-family: monospace;
+	text-align: center;
+}
+
+#d1{
+	width: 1350px;
+	height: 70px;
+	border: solid black;
+	background-color: mediumturquoise;
+}
+
+.d2{
+	width: 1350;
+	height: 70px;
+	border: solid bisque;
+	background-color: cornflowerblue;
+
+}
+
+.d3{
+	width: 1400px;
+	height: 50px;border: solid black 5px;
+	background-color: darkkhaki;
+
+}
