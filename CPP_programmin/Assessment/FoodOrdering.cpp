@@ -89,9 +89,9 @@ int main()
 		
 		else if(choice==2)
 	 {
-		cout<<"\n1 "<<bur1<<" Rs.50"<<"\n";
-		cout<<"2 "<<bur2<<" Rs.100"<<"\n";
-		cout<<"3 "<<bur3<<" Rs.150"<<"\n";
+		cout<<"\n1. "<<bur1<<" Rs.50"<<"\n";
+		cout<<"2. "<<bur2<<" Rs.100"<<"\n";
+		cout<<"3. "<<bur3<<" Rs.150"<<"\n";
 		//cout<<"4 "<<pizza4<<"\n";
 		cout<<"\nPlease Enter which Burger you would like to have?: ";
 		cin>>pchoice1;

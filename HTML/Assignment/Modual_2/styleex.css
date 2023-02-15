@@ -1,0 +1,14 @@
+h1{
+	text-align: center;
+	background-color: royalblue;
+}
+
+.p1{
+	background-color: rosybrown;
+	font: bold;
+	font-family: monospace;
+}
+
+#p2{
+	font-family: serif;
+}
