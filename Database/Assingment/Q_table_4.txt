@@ -1,0 +1,52 @@
+CREATE TABLE SALESPERSON (PKSNO INT NOT NULL,
+                         SNAME VARCHAR(20) NOT NULL,
+                          CITY VARCHAR(20) NOT NULL,
+                          COMM VARCHAR(20) NOT NULL
+                         );
+
+INSERT INTO salesperson(PKSNO,SNAME,CITY,COMM) VALUES ("1001","PEEL","LONDON","0.12"),
+("1002","SERRES","SAN JOSE","0.13"),
+("1004","MOTIKA","LONDON","0.11"),
+("1007","RAFKIN","BARCELONA","0.15"),
+("1003","AXELROD","NEW YORK","0.01");
+
+CREATE TABLE CUSTOMER (PKCNM INT NOT NULL,
+                       CNAME VARCHAR(20) NOT NULL,
+                       CITY VARCHAR(20) NOT NULL,
+                       RATING INT NOT NULL,
+                       FKSNO INT NOT NULL);
+
+INSERT INTO customer (PKCNM,CNAME,CITY,RATING,FKSNO) VALUES("201","HOFFAMAN","LONDON","100","1001"),
+("202","GIOVANN","EROE","200","1003"),
+("203","LIU","SAN JOSE","300","1002"),
+("204","GRASS","BARCELONA","100","1002"),
+("206","CLEMENS","LONDON","300","1007"),
+("207","PEREIRA","ROE","100","1004");
+
+
+A)a) All orders for more than $1000. 
+
+-->SELECT * FROM salesperson WHERE PKSNO>1000;
+--------------------------------------------------------------------------------------------------------------------
+
+B)b) Names and cities of all salespeople in London with commission above 0.12
+
+-->SELECT * from salesperson WHERE SNAME OR CITY ='LONDON' OR Comm>0.12;
+
+--------------------------------------------------------------------------------------------------------------------
+
+C)c) All salespeople either in Barcelona or in London 
+-->SELECT * from salesperson WHERE SNAME OR CITY ='LONDON' OR CITY='BARCELONA';
+
+--------------------------------------------------------------------------------------------------------------------
+
+D)All salespeople with commission between 0.10 and 0.12. (Boundary values should be excluded).
+
+-->SELECT * from salesperson WHERE SNAME OR Comm BETWEEN 0.10 AND 0.12;
+
+
+E)All customers excluding those with rating <= 100 unless they are located in Rome
+ 
+-->SELECT * FROM customer WHERE RATING<=100 OR CITY="Rome";
+
+                     
