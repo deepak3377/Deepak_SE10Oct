@@ -1,1 +1,0 @@
-while :- we are using a while loop fore a gaming and we dont no how long its repeat in loop 
