@@ -12,15 +12,30 @@ print(l2)
 l1.append(200)
 print(l1)
 
-l.pop()
-print(l)
+l2.append(300)
+print(l2)
+
+print(l.count(0))
+print(l.count(1))
 
 l.pop()
 print(l)
 
-l3=[1001,1002,1003]
-l.extend(13)
+l.pop()
+print(l)
+
+l3 = [1001,1002,1003]
+l.extend(l3)
 print(l)
 
 print(l.index(1001))
+l.insert(6,"Deepak")
+print(l)
+l.remove(1.1)
+print(l)
+l.reverse()
+print(l)
+
+
+
 

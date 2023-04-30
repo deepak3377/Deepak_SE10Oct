@@ -1,0 +1,4 @@
+module : module is acollection of fuction, classes , veriables
+
+packeges : packege is a dictionry 
+            which is contain __init__.py file 
