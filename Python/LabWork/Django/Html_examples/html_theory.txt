@@ -1,0 +1,40 @@
+Html : stands for hyper text markup language
+
+html which is use to represent structure of webpage
+
+html contain tags
+
+there are two types of tags
+
+1)singuler tags
+2)paired tags
+
+==> singuler tags : there are only 3 singuler tags
+
+    1) hr : horizontal row
+    2) br : break
+    3) img : for image display
+
+
+==> paired tags :
+
+    <opningtags>..content.. </closingtags>
+
+-----------------------------------------------------
+
+<p> : paragraph tag  
+
+<elimentname atribute = "Value"> content </closingelements>
+
+----------------------------------------------------------------------------------
+
+type of list
+
+1) ul = unorder list
+2) ol = order list
+3) dl = discription list
+
+=================================================
+
+li = list of items
+
